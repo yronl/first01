@@ -1,36 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+    <meta charset="utf-8">
     <title>九宫格</title>
+    <meta name="viewport" content="user-scalable=0,initial-scale=1.0,width=device-width" />
+    <style type="text/css">
+       *{
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-style: normal;
+            color: #323232;
+            box-sizing: border-box;
+            -moz-box-sizing:border-box; /* Firefox */
+            -webkit-box-sizing:border-box; /* Safari */
+        }
 
-    <style>
-        html{font-size: 64px}
-.jgg-box{width: 100%;max-width:640px;min-width:320px;margin:0 auto;height:640px;}
-ul li{list-style: none}
-.jgg-box ul li {
-    width: 32%;padding-bottom: 32%;float:left;margin: 0.5%;
-    background-color: orange;border-radius: 5%;
-}
+        ul{
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .video_list li{
+            float: left;
+            width: 32%;
+            text-align: center;
+            padding-top: 32%;
+            margin-left: 1%;
+            margin-top: 1%;
+            display: block;
+            background-color: orange;
+            border-radius: 5%;
+        }
 
-</style>
 
+        .box{min-width: 320px;
+            max-width:640px;
+        width: 100%;margin: 0 auto}
+    </style>
 </head>
 <body>
-<div class="jgg-box">
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+<div class="box">
+<ul class="video_list">
+    <li></li>
+    <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+<div style="clear: both"></div>
+</ul>
 </div>
-
 </body>
 </html>
